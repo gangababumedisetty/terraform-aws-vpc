@@ -69,12 +69,12 @@ variable "database_route_table_tags" {
 }
 
 variable "eip_tags" {
-    default {}
+    default = {}
     type = map
 }
 
 variable "nat_gateway_tags" {
-    default {}
+    default  = {}
     type = map
 }
 
