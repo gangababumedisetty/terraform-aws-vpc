@@ -72,7 +72,7 @@ resource "aws_route_table" "public" {
          {
             Name = "${var.project}-${var.environment}-public"
          },
-         var.pubic_route_table_tags
+         var.public_route_table_tags
 
     )
 }
